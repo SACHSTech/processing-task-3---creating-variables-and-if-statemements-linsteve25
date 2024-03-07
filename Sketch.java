@@ -28,7 +28,7 @@ public class Sketch extends PApplet {
   public void settings() {
 
 	// size call 
-    size(400, 400);
+  size(400, 400);
 
   // Random x and y coordinate 
   intRandomWidth = (int) random(width);
@@ -50,48 +50,40 @@ public class Sketch extends PApplet {
     if ((intRandomWidth <= 400 / 2) && (intRandomHeight <= 400 /2)) {
 
       background(50, 168, 68);
-
       intColorR = 242;
       intColorG = 131;
       intColorB = 227;
-
     }
     
     else if ((intRandomWidth >= 400 / 2) && (intRandomHeight >= 400 / 2)) {
 
       background(245, 197, 66);
-
       intColorR = 83;
       intColorG = 144;
       intColorB = 207;
-
     }
 
     else if (blnNotQuadrantC) {
 
       background(108, 53, 166);
-
       intColorR = 32;
       intColorG = 77;
       intColorB = 16;
-
     }
 
     else {
 
       background(81, 201, 245);
-
       intColorR = 255;
       intColorG = 0;
       intColorB = 0;
-
     }
 
   }
 
   public void draw() {
 	  
-	// print the window of the car
+  // print the window of the car
   fill(intColorR, intColorG, intColorB);
   ellipse(intRandomWidth + 155, intRandomHeight - 2, 180, 145);
   fill(92, 237, 225);
