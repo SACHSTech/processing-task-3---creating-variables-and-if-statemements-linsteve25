@@ -116,5 +116,4 @@ public class Sketch extends PApplet {
   textSize(20);
    text("" + LocalDateTime.now().format(formatter), 170, 390);
   }
-  
 }
