@@ -78,7 +78,6 @@ public class Sketch extends PApplet {
       intColorG = 0;
       intColorB = 0;
     }
-
   }
 
   public void draw() {
