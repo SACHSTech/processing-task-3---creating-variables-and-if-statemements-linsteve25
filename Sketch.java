@@ -114,6 +114,6 @@ public class Sketch extends PApplet {
   // print current time
   DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm");
   textSize(20);
-   text("" + LocalDateTime.now().format(formatter), 170, 390);
+  text("" + LocalDateTime.now().format(formatter), 170, 390);
   }
 }
